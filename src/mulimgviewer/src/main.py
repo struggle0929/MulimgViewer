@@ -234,7 +234,6 @@ class MulimgViewer (MulimgViewerGui):
 
     def save_img(self, event):
 
-         # 在保存前先自动刷新，确保使用最新设置
         if self.ImgManager.img_num != 0:
             self.show_img_init()
             self.show_img()
